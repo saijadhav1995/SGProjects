@@ -61,10 +61,13 @@ public class LoginPage extends BasePage{
 
 	
 	public void invalidLogin() throws Exception {		
-		ExcelImport.setExcelFile(AppstringsConstant.EXCELFILEPATH + AppstringsConstant.EXCELFILENAME, AppstringsConstant.EXCELLOGINSHEET);
-		String Exe_username = ExcelImport.getCellData(1, 0);
-		String Exe_password = ExcelImport.getCellData(1, 1);		
-		scHelper.Login(Exe_username, Exe_password);
+		/*
+		 * ExcelImport.setExcelFile(AppstringsConstant.EXCELFILEPATH +
+		 * AppstringsConstant.EXCELFILENAME, AppstringsConstant.EXCELLOGINSHEET); String
+		 * Exe_username = ExcelImport.getCellData(1, 0); String Exe_password =
+		 * ExcelImport.getCellData(1, 1);
+		 */	
+		scHelper.Login("a5417458","Test245018");
 		login.btn_ssoConnection.click();
 				
 		System.out.println("Test 2 - Verified login with invalid user details.");
@@ -81,12 +84,15 @@ public class LoginPage extends BasePage{
 	}
 	
 	public void AdmvalidLogin() throws Exception {		
-		ExcelImport.setExcelFile(AppstringsConstant.EXCELFILEPATH + AppstringsConstant.EXCELFILENAME, AppstringsConstant.EXCELLOGINSHEET);
-		String Exe_username = ExcelImport.getCellData(2, 0);
-		String Exe_password = ExcelImport.getCellData(2, 1);
+		/*
+		 * ExcelImport.setExcelFile(AppstringsConstant.EXCELFILEPATH +
+		 * AppstringsConstant.EXCELFILENAME, AppstringsConstant.EXCELLOGINSHEET); String
+		 * Exe_username = ExcelImport.getCellData(2, 0); String Exe_password =
+		 * ExcelImport.getCellData(2, 1);
+		 */
 		login.txt_SGusername.clear();
 		login.txt_SGpassword.clear();
-		scHelper.Login(Exe_username, Exe_password);
+		scHelper.Login("a5417458", "Test24501");
 		login.btn_ssoConnection.click();	
 				
 		//boolean expectedHomeText = SC.isElementPresent(login.txt_vehicleList);
