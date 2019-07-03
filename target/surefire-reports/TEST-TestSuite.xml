@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.497" tests="15" errors="0" skipped="0" failures="14">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CAML"/>
+    <property name="PWD" value="/Users/admin/Downloads"/>
+    <property name="JAVA_MAIN_CLASS_712" value="Main"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/admin/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin:/usr/local/bin:/usr/local/git/bin:/usr/local/bin:/Users/admin/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/admin/Downloads/adt-bundle-mac-x86_64-20140702/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/Users/admin/Downloads/apache-maven-3.0.4/bin"/>
+    <property name="https.proxyHost" value="http://in.pac.saint-gobain.com/proxy.pac"/>
+    <property name="HUDSON_SERVER_COOKIE" value="1bf6de97d3bb26fa"/>
+    <property name="POM_ARTIFACTID" value="CAMAL"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="8B088633-E11D-41A6-B2F0-742E9446318A"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CAMAL"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="http.proxyPort" value="8080"/>
+    <property name="user.name" value="admin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SECURITYSESSIONID" value="186a7"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="CAML"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://10.87.75.34:8080/job/CAML/30/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#30"/>
+    <property name="TMPDIR" value="/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="30"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="IN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="https.proxyPort" value="8080"/>
+    <property name="RUN_DISPLAY_URL" value="http://10.87.75.34:8080/job/CAML/30/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="JOB_DISPLAY_URL" value="http://10.87.75.34:8080/job/CAML/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="admin"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/admin"/>
+    <property name="POM_GROUPID" value="com.sg"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="BUILD_TAG" value="jenkins-CAML-30"/>
+    <property name="JENKINS_SERVER_COOKIE" value="1bf6de97d3bb26fa"/>
+    <property name="HUDSON_URL" value="http://10.87.75.34:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.kWWjJI30wv/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/admin/Downloads/apache-maven-3.0.4"/>
+    <property name="java.class.path" value="/Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-agent-1.12.jar:/Users/admin/Downloads/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main /Users/admin/Downloads/apache-maven-3.0.4/ /Users/admin/.jenkins/war/WEB-INF/lib/remoting-3.28.jar /Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.12.jar /Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 51131"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/admin/Downloads/apache-maven-3.0.4/"/>
+    <property name="java.io.tmpdir" value="/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/admin/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/admin/Downloads/apache-maven-3.0.4//bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://10.87.75.34:8080/job/CAML/30/"/>
+    <property name="OLDPWD" value="/Users/admin"/>
+    <property name="http.proxyHost" value="http://in.pac.saint-gobain.com/proxy.pac"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.CvCA2jiEGQ/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/admin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/admin/.jenkins/workspace/CAML"/>
+    <property name="JOB_URL" value="http://10.87.75.34:8080/job/CAML/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/Users/admin/Downloads/apache-maven-3.0.4/"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="30"/>
+    <property name="ANDROID_HOME" value="/Users/admin/Downloads/adt-bundle-mac-x86_64-20140702/sdk"/>
+    <property name="JENKINS_URL" value="http://10.87.75.34:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="404.1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="/Users/admin/.jenkins/workspace/CAML"/>
+    <property name="maven3.interceptor.common" value="/Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="admin"/>
+  </properties>
+  <testcase name="checkloginpage" classname="test.java.LoginTest" time="0.523"/>
+  <testcase name="invalidLogin" classname="test.java.LoginTest" time="0.781">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;buttonConnect&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=id, value=buttonConnect}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"buttonConnect"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=id, value=buttonConnect}
+	at test.java.LoginTest.invalidLogin(LoginTest.java:26)
+</failure>
+  </testcase>
+  <testcase name="AdminvalidLogin" classname="test.java.LoginTest" time="0.239">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;buttonConnect&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=id, value=buttonConnect}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"buttonConnect"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=id, value=buttonConnect}
+	at test.java.LoginTest.AdminvalidLogin(LoginTest.java:31)
+</failure>
+  </testcase>
+  <testcase name="CreateNewSupplier" classname="test.java.supplierTest" time="0.04">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[2]/div/div/ul/li[1]/a/span&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=/html/body/header/div[2]/div/div/ul/li[1]/a/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[2]/div/div/ul/li[1]/a/span"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=/html/body/header/div[2]/div/div/ul/li[1]/a/span}
+	at test.java.supplierTest.CreateNewSupplier(supplierTest.java:17)
+</failure>
+    <system-out><![CDATA[Either directory is already prersent or Failed to create directory.
+]]></system-out>
+  </testcase>
+  <testcase name="CheckLOGforcreation" classname="test.java.supplierTest" time="0.018">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;navigation&quot;]/ul/li[4]/a&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 16 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;navigation&quot;]/ul/li[4]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="navigation"]/ul/li[4]/a"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="navigation"]/ul/li[4]/a}
+	at test.java.supplierTest.CheckLOGforcreation(supplierTest.java:25)
+</failure>
+  </testcase>
+  <testcase name="EditNewSupplier" classname="test.java.supplierTest" time="0.018">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[2]/div/div/ul/li[1]/a/span&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=/html/body/header/div[2]/div/div/ul/li[1]/a/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[2]/div/div/ul/li[1]/a/span"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=/html/body/header/div[2]/div/div/ul/li[1]/a/span}
+	at test.java.supplierTest.EditNewSupplier(supplierTest.java:33)
+</failure>
+  </testcase>
+  <testcase name="CheckLOGformodification" classname="test.java.supplierTest" time="0.013">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;navigation&quot;]/ul/li[4]/a&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 13 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;navigation&quot;]/ul/li[4]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="navigation"]/ul/li[4]/a"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="navigation"]/ul/li[4]/a}
+	at test.java.supplierTest.CheckLOGformodification(supplierTest.java:41)
+</failure>
+  </testcase>
+  <testcase name="SendMailToSupplier" classname="test.java.supplierTest" time="0.017">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/header/div[2]/div/div/ul/li[1]/a/span&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 15 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=/html/body/header/div[2]/div/div/ul/li[1]/a/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div[2]/div/div/ul/li[1]/a/span"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=/html/body/header/div[2]/div/div/ul/li[1]/a/span}
+	at test.java.supplierTest.SendMailToSupplier(supplierTest.java:49)
+</failure>
+  </testcase>
+  <testcase name="DeleteSupplier" classname="test.java.supplierTest" time="0.025">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[type=&quot;search&quot;]&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 21 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=css selector, value=input[type=&quot;search&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input[type="search"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=css selector, value=input[type="search"]}
+	at test.java.supplierTest.DeleteSupplier(supplierTest.java:57)
+</failure>
+  </testcase>
+  <testcase name="CheckLOGfordelete" classname="test.java.supplierTest" time="0.022">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;navigation&quot;]/ul/li[4]/a&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 15 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;navigation&quot;]/ul/li[4]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="navigation"]/ul/li[4]/a"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="navigation"]/ul/li[4]/a}
+	at test.java.supplierTest.CheckLOGfordelete(supplierTest.java:65)
+</failure>
+  </testcase>
+  <testcase name="CreateNewUser" classname="test.java.UserTest" time="0.015">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;navigation&quot;]/ul/li[2]/a/span&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;navigation&quot;]/ul/li[2]/a/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="navigation"]/ul/li[2]/a/span"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="navigation"]/ul/li[2]/a/span}
+	at test.java.UserTest.CreateNewUser(UserTest.java:24)
+</failure>
+    <system-out><![CDATA[Either directory is already prersent or Failed to create directory.
+]]></system-out>
+  </testcase>
+  <testcase name="EditNewUser" classname="test.java.UserTest" time="0.02">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;users&quot;]/tbody/tr[1]/td[4]/button&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 18 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;users&quot;]/tbody/tr[1]/td[4]/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="users"]/tbody/tr[1]/td[4]/button"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="users"]/tbody/tr[1]/td[4]/button}
+	at test.java.UserTest.EditNewUser(UserTest.java:32)
+</failure>
+  </testcase>
+  <testcase name="CreateEmail" classname="test.java.EmailManagerTest" time="0.022">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;navigation&quot;]/ul/li[3]/a/span&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 19 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;navigation&quot;]/ul/li[3]/a/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="navigation"]/ul/li[3]/a/span"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="navigation"]/ul/li[3]/a/span}
+	at test.java.EmailManagerTest.CreateEmail(EmailManagerTest.java:23)
+</failure>
+    <system-out><![CDATA[Either directory is already prersent or Failed to create directory.
+]]></system-out>
+  </testcase>
+  <testcase name="EditEmail" classname="test.java.EmailManagerTest" time="0.015">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;rejection_mail_copy&quot;]/tbody/tr[1]/td[3]/button&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;rejection_mail_copy&quot;]/tbody/tr[1]/td[3]/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="rejection_mail_copy"]/tbody/tr[1]/td[3]/button"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="rejection_mail_copy"]/tbody/tr[1]/td[3]/button}
+	at test.java.EmailManagerTest.EditEmail(EmailManagerTest.java:30)
+</failure>
+  </testcase>
+  <testcase name="LogOut" classname="test.java.EmailManagerTest" time="0.016">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;topnav&quot;]/div[1]/div/div[2]/ul/li[2]/a&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;admins-mac-mini.in.dhcp.saint-gobain.net&apos;, ip: &apos;10.87.75.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8076b68846d1e41e3412417d9ac7c267&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;topnav&quot;]/div[1]/div/div[2]/ul/li[2]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="topnav"]/div[1]/div/div[2]/ul/li[2]/a"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'admins-mac-mini.in.dhcp.saint-gobain.net', ip: '10.87.75.34', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51150}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189), userDataDir=/var/folders/c_/w19ng9h56ln9yt17wqdy81xm0000gn/T/.org.chromium.Chromium.XpMeuf}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8076b68846d1e41e3412417d9ac7c267
+*** Element info: {Using=xpath, value=//*[@id="topnav"]/div[1]/div/div[2]/ul/li[2]/a}
+	at test.java.EmailManagerTest.LogOut(EmailManagerTest.java:37)
+</failure>
+  </testcase>
+</testsuite>
