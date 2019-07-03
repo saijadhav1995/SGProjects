@@ -69,7 +69,7 @@ public class LoginPage extends BasePage{
 		 */	
 		login.txt_SGusername.clear();
 		login.txt_SGpassword.clear();
-		scHelper.Login("a5417458", "Test24501");
+		scHelper.Login("a5417458", "888");
 		login.btn_ssoConnection.click();
 		System.out.println("Test 2 - Verified login with invalid user details.");
 		if (login.errormsg.getText().contains(AppstringsConstant.INVALIDLOGINMSG) == true) {
