@@ -67,9 +67,10 @@ public class LoginPage extends BasePage{
 		 * Exe_username = ExcelImport.getCellData(1, 0); String Exe_password =
 		 * ExcelImport.getCellData(1, 1);
 		 */	
-		scHelper.Login("a5417458","Test245018");
+		login.txt_SGusername.clear();
+		login.txt_SGpassword.clear();
+		scHelper.Login("a5417458", "Test24501");
 		login.btn_ssoConnection.click();
-				
 		System.out.println("Test 2 - Verified login with invalid user details.");
 		if (login.errormsg.getText().contains(AppstringsConstant.INVALIDLOGINMSG) == true) {
 			logger.log(LogStatus.PASS,
