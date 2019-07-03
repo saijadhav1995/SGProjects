@@ -84,7 +84,8 @@ public class EmailPage extends BasePage{
 			logger.log(LogStatus.PASS,
 					"1: Logout from app " + "<br/>" + "2 : Log out . " + "<br/>"
 							+ "<b>Result: Logout successfully from the app <b>"
-			
+							+ logger.addScreenCapture(captureScreenShot(driver, "LogOut App")));
+		
 	}
 
 }
