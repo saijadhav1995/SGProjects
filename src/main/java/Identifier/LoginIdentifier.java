@@ -106,7 +106,7 @@ public class LoginIdentifier extends BasePage {
 	@FindBy(xpath= "//*[@id=\"logs_data\"]/tbody/tr[1]/td[4]")
 	public WebElement Tbl_mailOfSupplier;
 	
-	@FindBy(id="buttonConnect")
+	@FindBy(id="login.submit.id")
 	public WebElement btn_ssoConnection;
 	
 	@FindBy(xpath ="//*[@id=\"links\"]/a")
