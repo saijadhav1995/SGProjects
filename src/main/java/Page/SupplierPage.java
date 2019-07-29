@@ -230,15 +230,6 @@ public class SupplierPage extends BasePage {
 		ActualUserAction = testID.getTbl_action().getText();
 		Actualsuppliermail = testID.getTbl_mailOfSupplier().getText();
 		Expectedsuppliermail = Editemail;
-		try{
-		Assert.assertEquals(Actualsuppliermail, Expectedsuppliermail);
-		Assert.assertEquals(Actualsuppliermail, Editemail, "Strings are not matching");
-		Assert.assertEquals(ActualUserAction, AppstringsConstant.DELETIONLOG, "Strings are not matching");
-		Assert.assertEquals(ActualUserID, ExcelImport.getCellData(1, 0), "Strings are not matching");
-		}
-		 catch(Error e){ logger.log(LogStatus.FAIL,
-		  "Assert Fail : Log for deletion of supplier "); }
-		 
 		if (ActualUserAction.equals(AppstringsConstant.DELETIONLOG) == true) {
 			System.out.println("Pass");
 			logger.log(LogStatus.PASS,
