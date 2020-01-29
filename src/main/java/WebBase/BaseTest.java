@@ -1,4 +1,6 @@
 package WebBase;
+import java.io.File;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterSuite;
@@ -25,10 +27,12 @@ public class BaseTest extends Controller{
 		if (extent == null) {
 		//	extent = new ExtentReports(System.getProperty("user.dir") +"/test-output/CAMAL.html", true);
 			extent = new ExtentReports(System.getProperty("user.dir") +"/extentReports/index.html", true);
+			extent.loadConfig(new File("/Users/admin/Desktop/updatedtest Projects/CAMAL/Files/extent-config.xml"));
 			extent
 			.addSystemInfo("Host Name", "CAMAL")
 			.addSystemInfo("Environment", "QA")
 			.addSystemInfo("Testapp", "WEB-APP");
+			
 		}
 		
 		 
