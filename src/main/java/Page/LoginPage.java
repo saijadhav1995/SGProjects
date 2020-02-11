@@ -89,7 +89,7 @@ public class LoginPage extends BasePage{
 		 */
 		login.txt_SGusername.clear();
 		login.txt_SGpassword.clear();
-		scHelper.Login("a5417458", "Test24502");
+		scHelper.Login("a5417458", "Test2450**");
 		login.btn_ssoConnection.click();	
 				
 		//boolean expectedHomeText = SC.isElementPresent(login.txt_vehicleList);
