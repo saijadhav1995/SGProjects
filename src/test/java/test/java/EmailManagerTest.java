@@ -41,7 +41,7 @@ public class EmailManagerTest extends BaseTest{
 	@Test(priority=6)
 	public void VerifymailOnsupplier() throws InterruptedException, IOException
 	{
-		EM.verifyaddedEmailIdOnSupplier();
+		//EM.verifyaddedEmailIdOnSupplier();
 		
 	}  
 	
