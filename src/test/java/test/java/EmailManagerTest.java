@@ -63,7 +63,7 @@ public class EmailManagerTest extends BaseTest{
 	@Test(priority=5)
 	public void EmailFormatOnSupplier() throws InterruptedException, IOException
 	{
-		EM.verifyeditedEmailFormatOnSupplier();
+		//EM.verifyeditedEmailFormatOnSupplier();
 		
 	}  
 	
