@@ -32,4 +32,23 @@ public class UserTest extends BaseTest {
 		US.Editeuser();
 	
 	}
+
+
+	
+	@Test(priority=3)
+	public void VerifyErrorOnUser() throws InterruptedException, IOException
+	{
+		
+		US.verifyErrorMassageOnCreateUser();
+	
+	}
+	
+	@Test(priority=4)
+	public void Verifyreacharche() throws InterruptedException, IOException
+	{
+		
+		US.VerifyReacharche();
+	
+	}
+
 }

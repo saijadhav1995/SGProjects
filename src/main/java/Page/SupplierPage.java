@@ -1,7 +1,10 @@
 package Page;
 
+import java.io.File;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -14,6 +17,8 @@ import Utility.Helper;
 import WebBase.BasePage;
 import WebBase.BaseTest;
 
+import WebBase.webController;
+
 public class SupplierPage extends BasePage {
 
 	LoginIdentifier testID = new LoginIdentifier();
@@ -21,8 +26,12 @@ public class SupplierPage extends BasePage {
 	String supEmail = help.randomEmailGenerator();
 	String Editemail = help.randomEmailGenerator();
 	BaseTest baseT = new BaseTest();
-	String pathwhileCreate = "/Users/admin/WEB/CAMAL/Files/Abc.pdf";
-	String pathwhileEdit ="/Users/admin/WEB/CAMAL/Files/ABCDE.pdf";
+	webController contrl=new webController();
+	String pathwhileCreate=System.getProperty("user.dir")+"/Files/Abc.pdf";
+	String pathwhileEdit=System.getProperty("user.dir")+"/Files/ABCDE.pdf";
+	//String pathwhileCreate = "C:\\Users\\a5417458\\.eclipse\\Desktop\\backup\\CAMAL\\Files\\Abc.pdf";
+	//String pathwhileEdit ="C:\\Users\\a5417458\\.eclipse\\Desktop\\backup\\CAMAL\\Files\\ABCDE.pdf";
+	private static String downloadPath = "/Users/admin/Downloads";
 
 	String className = "";
 	public ExtentTest logger;
@@ -39,8 +48,7 @@ public class SupplierPage extends BasePage {
 		className = this.getClass().getName();
 		createDirectory("CAMAL"+className);
 		logger = baseT.extent.startTest("Supplier Test");
-
-		String ActualType, ActualRejectmail, ActualEmail, ActualSGDBFmail, ActualObservation, ActualValidationMandatory,
+        String ActualType, ActualRejectmail, ActualEmail, ActualSGDBFmail, ActualObservation, ActualValidationMandatory,
 				Actualentity;
 		testID.getSuppliertab().click();
 		testID.getNewsupplier().click();
@@ -61,37 +69,18 @@ public class SupplierPage extends BasePage {
 		Thread.sleep(5000);
 		testID.getSearchField().sendKeys(supEmail);
 		Thread.sleep(5000);
-		ActualEmail = testID.getTbl_supplierMail().getText();
-		ActualType = testID.getTbl_supplieType().getText();
-		ActualRejectmail = testID.getTbl_supplierejectMail().getText();
-		ActualSGDBFmail = testID.getTbl_supplieSGDBFMail().getText();
-		ActualObservation = testID.getTbl_supplieObservation().getText();
-		ActualValidationMandatory = testID.getTbl_mandtoryValidation().getText();
-		Actualentity = testID.getTbl_supplieEntity().getText();
-		/*
-		 * try { Assert.assertEquals(ActualEmail, supEmail, "Strings are not matching");
-		 * Assert.assertEquals(ActualRejectmail, supEmail, "Strings are not matching");
-		 * Assert.assertEquals(ActualSGDBFmail, supEmail, "Strings are not matching");
-		 * Assert.assertEquals(ActualObservation,
-		 * AppstringsConstant.SUPPLIEREXPECTEDOBSERVATION, "Strings are not matching");
-		 * } catch (Error e) { logger.log(LogStatus.FAIL,
-		 * "Assert Fail : Creating new supplier  fail"); }
-		 */
-
-		//if (testID.getSupplierSuccessMsg().getText().equals(AppstringsConstant.SUPPLIERCREATIONMSG) == true) {
-			// log.info("verify home page");
+		WebElement Result=contrl.driver.findElement(By.xpath("//td[text()='"+supEmail+"']"));
+		if(help.isElementPresent(Result))
+		{
 			logger.log(LogStatus.PASS,
 					"1: Create New Supplier " + "<br/>" + "2 : Verify all fields are present " + "<br/>"
 							+ "<b>Result: Supplier creation success message is displayed <b>"
 							+ logger.addScreenCapture(captureScreenShot(driver, "verify Suppier create successfully")));
-		/*
-		 * // } else //{
-		 * 
-		 * logger.log(LogStatus.FAIL, "Creating new supplier  fail" + "<br/>" +
-		 * logger.addScreenCapture(captureScreenShot(driver, "Suppier creation fail")));
-		 * 
-		 * //}
-		 */	
+		}
+		else
+		{
+			System.out.println("fail");
+		}
 			}
 
 	public void CheckLOGforcreation() throws InterruptedException, IOException {
@@ -243,5 +232,81 @@ public class SupplierPage extends BasePage {
 
 		}
 	}
+	
+	public void verifyPdfDownload() throws InterruptedException
+	{
+		testID.Pdfdownload.get(0).click();
+		//File getLatestFile = getLatestFilefromDir(downloadPath);
+		Thread.sleep(7000);
+	    File getLatestFile = help.getLatestFilefromDir(downloadPath);
+		String fileName = getLatestFile.getName();
+		System.out.println("latest file is"+fileName);
+		Thread.sleep(2000);
+		if (fileName.contains("Abc")) {
+			logger.log(LogStatus.PASS,
+					"1: Log for deleteion of   Supplier " + "<br/>" + "2 :Click on supplier page "+ "<br/>" +"3:Click on Pdf download option any of the listed mail"
+							+ "<br/>" + "<b>Result: File get downloaded successfully <b>"
+							+ logger.addScreenCapture(captureScreenShot(driver, "downlaod  pdf")));
+	}
+		else
+		{
+			logger.log(LogStatus.FAIL,
+					"1: Log for deleteion of   Supplier " + "<br/>" + "2 :Click on supplier page "+ "<br/>" +"3:Click on Pdf download option any of the listed mail"
+							+ "<br/>" + "<b>Result: File not  get downloaded successfully <b>"
+							+ logger.addScreenCapture(captureScreenShot(driver, "pdf file download  pdf")));
 
-}
+		}
+	}
+	
+	public void verifyExcelDownload() throws InterruptedException
+	{
+		testID.Excel_btn.click();
+		//File getLatestFile = getLatestFilefromDir(downloadPath);
+		Thread.sleep(7000);
+	    File getLatestFile = help.getLatestFilefromDir(downloadPath);
+		String fileName = getLatestFile.getName();
+		System.out.println("latest file is"+fileName);
+		Thread.sleep(2000);
+		if (fileName.contains("CAML")) {
+			logger.log(LogStatus.PASS,
+					"1: Log for deleteion of   Supplier " + "<br/>" + "2 :Click on supplier page "+ "<br/>" +"3:Click on Excel download option any of the listed mail"
+							+ "<br/>" + "<b>Result: File not  get downloaded successfully <b>"
+							+ logger.addScreenCapture(captureScreenShot(driver, "Excel file download  pdf")));
+           	}
+		else
+		{
+			logger.log(LogStatus.FAIL,
+					"1: Log for deleteion of   Supplier " + "<br/>" + "2 :Click on supplier page "+ "<br/>" +"3:Click on excel download option any of the listed mail"
+							+ "<br/>" + "<b>Result: File not  get downloaded successfully <b>"
+							+ logger.addScreenCapture(captureScreenShot(driver, "Excel file download  pdf")));
+
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}

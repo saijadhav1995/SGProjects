@@ -1,50 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="supplier(failed)" parallel="none">
-    <classes>
-      <class name="test.java.supplierTest">
-        <methods>
-          <include name="EditNewSupplier"/>
-          <include name="CheckLOGformodification"/>
-          <include name="DeleteSupplier"/>
-          <include name="SendMailToSupplier"/>
-          <include name="CheckLOGfordelete"/>
-        </methods>
-      </class> <!-- test.java.supplierTest -->
-      <class name="test.java.EmailManagerTest">
-        <methods>
-          <include name="getReporter"/>
-          <include name="closeextend"/>
-        </methods>
-      </class> <!-- test.java.EmailManagerTest -->
-    </classes>
-  </test> <!-- supplier(failed) -->
-  <test name="user(failed)" parallel="none">
-    <classes>
-      <class name="test.java.UserTest">
-        <methods>
-          <include name="EditNewUser"/>
-          <include name="CreateNewUser"/>
-        </methods>
-      </class> <!-- test.java.UserTest -->
-      <class name="test.java.EmailManagerTest">
-        <methods>
-          <include name="getReporter"/>
-          <include name="closeextend"/>
-        </methods>
-      </class> <!-- test.java.EmailManagerTest -->
-    </classes>
-  </test> <!-- user(failed) -->
   <test name="email(failed)" parallel="none">
     <classes>
       <class name="test.java.EmailManagerTest">
         <methods>
-          <include name="EditEmail"/>
-          <include name="LogOut"/>
-          <include name="CreateEmail"/>
           <include name="getReporter"/>
           <include name="closeextend"/>
+          <include name="VerifymailOnsupplier"/>
         </methods>
       </class> <!-- test.java.EmailManagerTest -->
     </classes>

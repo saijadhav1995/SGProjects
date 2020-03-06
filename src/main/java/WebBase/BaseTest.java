@@ -9,14 +9,14 @@ import org.testng.annotations.BeforeSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 
 
-public class BaseTest extends Controller{
+public class BaseTest extends webController{
 	
 	public static WebDriver Basetestdriver=null;
 	public  static ExtentReports extent;	
 	
 	public BaseTest() 
 	{
-		BaseTest.Basetestdriver = Controller.InvokeWebDriver();
+		BaseTest.Basetestdriver = webController.invokeWebController();
 		PageFactory.initElements(Basetestdriver, this);
 		
 	}
@@ -27,15 +27,13 @@ public class BaseTest extends Controller{
 		if (extent == null) {
 		//	extent = new ExtentReports(System.getProperty("user.dir") +"/test-output/CAMAL.html", true);
 			extent = new ExtentReports(System.getProperty("user.dir") +"/extentReports/index.html", true);
-			extent.loadConfig(new File("/Users/admin/Desktop/updatedtest Projects/CAMAL/Files/extent-config.xml"));
+			extent.loadConfig(new File("/Users/admin/Desktop/untitled folder 2/CAMAL/test-output/extent-config.xml"));
 			extent
 			.addSystemInfo("Host Name", "CAMAL")
 			.addSystemInfo("Environment", "QA")
 			.addSystemInfo("Testapp", "WEB-APP");
-			
+			//extent.loadConfig(extent-config.xml);
 		}
-		
-		 
 		return extent;
 		
 	}

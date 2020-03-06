@@ -15,7 +15,7 @@ import net.sf.cglib.core.ClassNameReader;
 
 
 
-public class BasePage extends Controller{
+public class BasePage extends webController{
 	
 	public static WebDriver Basepagedriver=null;
 
@@ -24,7 +24,7 @@ public class BasePage extends Controller{
 	
 	public BasePage()
 	{
-		BasePage.Basepagedriver = Controller.InvokeWebDriver();
+		BasePage.Basepagedriver = webController.invokeWebController();
 		PageFactory.initElements(Basepagedriver, this);
 		
 	}

@@ -1,6 +1,8 @@
 package Identifier;
 
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -112,18 +114,25 @@ public class LoginIdentifier extends BasePage {
 	@FindBy(xpath ="//*[@id=\"links\"]/a")
 	public WebElement loginpagelink;
 	
-	@FindBy(xpath ="//*[@id=\"error\"]/span")
+	@FindBy(xpath ="//span[@class='h7 text-red']")
 	public WebElement errormsg;
 	
-	@FindBy(xpath ="//*[@id=\"formAutoLogin\"]/a")
+	@FindBy(xpath ="//a[text()='Use another identity']")
 	public WebElement useanotherloginlink;		
 	
 	@FindBy(id="password")
 	public WebElement txt_SGpassword;
 	
+	
+	@FindBy(xpath="//button[@class='fa fa-file-pdf-o button']")
+	public List<WebElement> Pdfdownload;
+	
 	@FindBy(id="username")
 	public WebElement txt_SGusername;
 	
+	
+	@FindBy(xpath="//button[@id='btn_export']")
+	public WebElement Excel_btn;
 	
 	
 	

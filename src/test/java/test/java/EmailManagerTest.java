@@ -31,11 +31,54 @@ public class EmailManagerTest extends BaseTest{
 		
 	}  
 	
-	@Test(priority=3)
+	@Test(priority=8)
 	public void LogOut() throws InterruptedException, IOException
 	{
 		EM.LogOutfromApp();
 		
 	}  
+	
+	@Test(priority=6)
+	public void VerifymailOnsupplier() throws InterruptedException, IOException
+	{
+		EM.verifyaddedEmailIdOnSupplier();
+		
+	}  
+	
+	@Test(priority=3)
+	public void verifysearch() throws InterruptedException, IOException
+	{
+		EM.VerifyrReachrche();
+		
+	}  
+	
+	
+	@Test(priority=4)
+	public void VerifyNoteEdit() throws InterruptedException, IOException
+	{
+		EM.EditEmailText();
+		
+	}  
+	
+	@Test(priority=5)
+	public void EmailFormatOnSupplier() throws InterruptedException, IOException
+	{
+		EM.verifyeditedEmailFormatOnSupplier();
+		
+	}  
+	
+	@Test(priority=7)
+	public void verifysearchonHistory() throws InterruptedException, IOException
+	{
+		EM.verifyReachrcheOnHistory();
+		
+	}  
+	
+	/*
+	 * @Test(priority=3) public void verifyCreateMailError() throws
+	 * InterruptedException, IOException { // EM.verifyErrorMassage();
+	 * 
+	 * }
+	 */
 }
 

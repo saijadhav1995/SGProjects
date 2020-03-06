@@ -1,6 +1,9 @@
+
 package Identifier;
 
 
+
+import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -49,13 +52,20 @@ public class EmailManagementIdentifier extends BasePage {
 	@FindBy(id = "mail_sender")
 	public WebElement EmailSenderID;
 	
+	
+	@FindBy(xpath = "//button[@id='btn-no']")
+	public WebElement NonBtn;
+	
+	@FindBy(id = "//button[@class='close']")
+	public List<WebElement> closeBtn;
+	
 	@FindBy(id = "mail_objet")
 	public WebElement Emailobject;
 	
 	@FindBy(xpath = "//*[@id=\"inforamtion_mail\"]/div/div[2]/div[3]/div/div[3]/div[2]")
 	public WebElement Emailbody;
 	
-	@FindBy(id = "inforamtion_mail_submit")
+	@FindBy(xpath = "//button[@id='information_mail_submit']")
 	public WebElement EmailSubmitbtn;
 	
 		
@@ -68,6 +78,49 @@ public class EmailManagementIdentifier extends BasePage {
 	@FindBy(id = "title")
 	public WebElement logoutpage;
 	
+	
+	@FindBy(xpath = "//td[text()='Suppression']")
+	public List<WebElement> SearchText;
+	
+	@FindBy(xpath = "//input[@type='search']")
+	public WebElement SearchTextbox;
+	
+	@FindBy(xpath = "//button[@id='btn-reset']")
+	public WebElement AnnularBtn;
+	
+	@FindBy(xpath = "//span[@class='supplier_type error']")
+	public WebElement supplier_Error;
+	
+	
+	@FindBy(xpath = "//span[@class='mail_address error']")
+	public WebElement mail_address_Error;
+	
+	
+	@FindBy(xpath = "//input[@type='search']")
+	public WebElement Search_Textbox;
+	
+	
+	@FindBy(xpath = "//div[@class='alert alert-success']")
+	public WebElement MailSuccesssg;
+	
+	@FindBy(xpath = "//span[@id='mail_libelle']")
+	public WebElement UpadtedMailContents;
+	
+	@FindBy(xpath = "//button[@class='fa fa-envelope open_mail_modal button']")
+	public List<WebElement> Mail_List;
+	
+	@FindBy(xpath = "//div[@class='note-editable panel-body']")
+	public WebElement noteeditable;
+	
+	@FindBy(xpath = "//table/tbody/tr[@role='row']/td[2]")
+	public WebElement RowData;
+	
+	@FindBy(xpath = "//input[@name='mail_sender']")
+	public WebElement mail_sender;
+	
+	
+	@FindBy(xpath = "//button[@id='information_mail_submit']")
+	public WebElement subitBtn;
 	
 	public WebElement getLogoutpage() {
 		return logoutpage;
@@ -117,6 +170,8 @@ public class EmailManagementIdentifier extends BasePage {
 		EmailAdd = emailAdd;
 	}
 
+	
+	
 	public WebElement getEmail_supplierType() {
 		return Email_supplierType;
 	}

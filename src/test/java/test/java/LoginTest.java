@@ -16,7 +16,7 @@ LoginPage loginPage = new LoginPage();
 
 	
 	@Test(priority = 1)
-	public void checkloginpage() {
+	public void checkloginpage() throws InterruptedException {
 		loginPage.checkloginpage();
 
 	}

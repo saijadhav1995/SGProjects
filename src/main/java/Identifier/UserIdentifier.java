@@ -14,6 +14,14 @@ public class UserIdentifier extends BasePage {
 	
 	@FindBy(id = "btn_add")
 	public WebElement adduser;
+	
+	
+	@FindBy(xpath="//button[@id='btn-reset']")
+	public WebElement ResetBtn;
+	
+	
+	
+	
 		
 	@FindBy(xpath = "//*[@id=\"users_filter\"]/label/input")
 	public WebElement usersearch;
@@ -32,7 +40,26 @@ public class UserIdentifier extends BasePage {
 	
 	@FindBy(id = "add_reset")
 	public WebElement userResetbtn;
-		
+	
+	@FindBy(xpath = "//button[@aria-label='Close']")
+	public WebElement Closetbtn;
+	
+	@FindBy(xpath = "//span[@class='usr_name error']")
+	public WebElement usr_nameerror;
+	
+	@FindBy(xpath = "//span[@class='usr_sgid error']")
+	public WebElement Sgid_ErrorMassage;
+	
+	@FindBy(xpath = "//span[@class='usr_role error']")
+	public WebElement usr_roleErrorMassage;
+	
+	@FindBy(xpath = "//input[@type='search']")
+	public WebElement Reacharcher_TextBox;
+	
+	@FindBy(xpath = "//td[text()='A5417458']")
+	public WebElement UserSgid;	
+	
+	
 	@FindBy(xpath = "//*[@id=\"users\"]/tbody/tr[1]/td[4]/button")
 	public WebElement useredit;
 	
