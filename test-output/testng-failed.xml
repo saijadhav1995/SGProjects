@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="email(failed)" parallel="none">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="preparation(failed)">
     <classes>
-      <class name="test.java.EmailManagerTest">
+      <class name="testCases.PreparationPageFunctionality">
         <methods>
-          <include name="getReporter"/>
           <include name="closeextend"/>
-          <include name="VerifymailOnsupplier"/>
+          <include name="getReporter"/>
+          <include name="verifyAdminUser"/>
         </methods>
-      </class> <!-- test.java.EmailManagerTest -->
+      </class> <!-- testCases.PreparationPageFunctionality -->
     </classes>
-  </test> <!-- email(failed) -->
+  </test> <!-- preparation(failed) -->
+  <test thread-count="5" name="Admin(failed)">
+    <classes>
+      <class name="testCases.AdminPageFunctionality">
+        <methods>
+          <include name="closeextend"/>
+          <include name="verifyAdminUser"/>
+          <include name="getReporter"/>
+        </methods>
+      </class> <!-- testCases.AdminPageFunctionality -->
+    </classes>
+  </test> <!-- Admin(failed) -->
 </suite> <!-- Failed suite [Suite] -->

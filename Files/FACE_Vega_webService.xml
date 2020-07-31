@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+    <description>
+        <date>20170721105341</date>
+        <codent>FACE</codent>  -- Code entité
+        <codfct>FACE</codfct>  -- Code fonction
+        <verfct>1.0</verfct>   -- Version de la fonction
+        <sysori>VEGA</sysori>  -- Origine de l'application
+        <basori>3095</basori>  -- Origine de la base
+        <socori>301</socori>   -- Code société
+        <agcori>3238</agcori>  -- Code de l'agence
+        <objori>B333171</objori> -- Numéro de la pièce
+        <verori>6.70</verori> -- Version vega
+    </description>
+    <bon>
+        <ligne_detail>
+            <scodsoc>301</scodsoc>      -- Code société
+            <scodagc>3238</scodagc>     -- Code de l'agence
+            <ccodnatpce>B</ccodnatpce>  -- Nature de la pièce de vente:B pour Bon et F pour facture
+            <scodobj>B333171</scodobj>  -- Numéro de la pièce
+            <srefliv></srefliv>         -- Numero de bon de livraison fournisseur
+            <dfactrm>3-05-2019</dfactrm>  -- Date de la facturation
+            <scodver></scodver>           -- Code de la version
+            <simpver></simpver>           -- Numero de version d'impression
+            <scodcli>1211</scodcli>      -- Code client
+            <sdesclignr>API Automation</sdesclignr>  -- Designation du client
+            <srue001gnr>1 RUE DE LA LIBERTEë, ï, ü,â, ê, î, ô, û</srue001gnr>  -- Adresse du client
+            <scodpttgnr>13130</scodpttgnr>  -- Code postal du client
+            <svilgnr> BERRE L ETANG ë, ï, ü,â, ê, î, ô, û</svilgnr>  -- Ville du client
+            <sagcord></sagcord>  -- Code de l'agence donneuse d'ordre
+            <scmscli></scmscli>  -- Code client commisionne
+            <starcli>SG2CJB</starcli>  -- Code du client
+            <scodprotar>6470</scodprotar> -- Code du profil tarifaire du client
+            <smanobj></smanobj>           -- Numero manuel de l'objet (en cas de ressaisie)
+            <sperdev></sperdev>           -- Code du devis lie à cet enregistrement
+            <spercdecli></spercdecli>     -- Code de la cde lie a cet enregistrement
+            <sperbon></sperbon>           -- Code du bon liee a l'enregistrement
+            <ccodnatliv>L</ccodnatliv>   -- Nature de la livraison E: Enlevé  L : livré
+            <ccodnatvte>M</ccodnatvte>   -- Nature de la vente M: Magasin
+            <ccodcns></ccodcns>    -- Code consommation interne
+            <ccodeta>M</ccodeta>   -- Etat de la pièce
+            <cmajprx>N</cmajprx>   -- Mise a jour des prix (O,N)
+            <cmtffrc></cmtffrc>    -- Motif du forcage des prix
+            <srefobj></srefobj>    -- Reference de l'objet chez le client (imprimé sur 8 par FAC400)
+            <sdesrefobj></sdesrefobj> -- Designation reference piece chez le tiers (client ou fournisseur)
+            <scodfrn></scodfrn>   -- Code du fournisseur
+            <scodcdefrn></scodcdefrn> -- Numéro de la commande fournisseur
+            <scodrcp></scodrcp>  -- Numero de bon de reception
+            <cfactra>D</cfactra> -- Franco/Depart
+            <scodtypveh></scodtypveh> -- Code type de vehicule
+            <scodveh></scodveh>  -- Code vehicule
+            <scodaff>A1047</scodaff>  -- Code de l'affaire
+            <scodcht>A1047</scodcht>  -- Code du chantier
+            <dobj>28-08-2019</dobj>   -- Date de la création de la pièce
+            <dval>28-08-2019</dval>   -- Date de valorisation des prix
+            <dlivprv></dlivprv>       -- Date de la livraison prévue
+            <shrsprv></shrsprv>       -- Heure prévue de la livraion
+            <scodsctgeo>01</scodsctgeo>  -- Code du secteur géographique
+            <srue001></srue001>  -- Adresse de la livraison 1
+            <srue002></srue002>  -- Adresse de la livraison 2
+            <srue003></srue003>  -- Adresse de la livraison 3
+            <scodptt></scodptt>  -- Code postal de la livraison
+            <svil></svil>        -- Ville de la livraison
+            <sdesind></sdesind>  -- Nom du contact
+            <svndatc></svndatc>  -- Code vendeur
+            <npdsobj>31.2</npdsobj>  -- Poids total (en kg)
+            <nvolobj>0.0</nvolobj>   -- Volume total (en dm3)
+            <nprxobj>58.97</nprxobj> -- Montant total HT du bon prix depart
+            <nvteobj>58.97</nvteobj> -- Montant total HT du bon prix franco
+            <nprxmar>58.97</nprxmar> -- Total HT prix depart des lignes de marchandises
+            <nprxtra>0.0</nprxtra>   -- Frais unitaire de transport
+            <nprxsrv>0.0</nprxsrv>   -- Total HT prix depart des lignes de services
+            <nprxpal>0.0</nprxpal>   -- Total HT prix depart des lignes de palettes
+            <nprxdiv>0.0</nprxdiv>   -- Total HT prix depart des lignes de nature divers
+            <scodatc>1507</scodatc>  -- Code ATC
+            <ipdefac>30</ipdefac>    -- Periode de facturation
+            <ijouech>1</ijouech>     -- Nombre de jour d'echéance
+            <itrmrgl>30</itrmrgl>    -- Nombre de jour de terme de reglement
+            <dext></dext>            -- Date d'extraction
+            <scodext>6531</scodext>  -- Code de l'extraction
+            <ltxt>1</ltxt>  -- Présence de commentaires associes a l'enreg
+            <levn>1</levn>  -- Présence d'evenement sur l'enregistrement (1,0)
+            <scodpst>PTS/189</scodpst> -- code du poste
+            <sdefpag>NNNN N      N N OOO</sdefpag> -- Caracteristiques de l'edition
+            <ncoesctgeo>1.0</ncoesctgeo>  -- Coefficient d'éloignement
+            <cbonunqfac>N</cbonunqfac>    -- Bon à facturer à part (O,N)
+            <cmodrlv>N</cmodrlv>          -- Mode de relevé
+            <ccodnatbut>N</ccodnatbut>    -- Nature de destination de la vente : Renova, Neuf
+            <sstacli></sstacli>  -- Client statistique
+            <dins>21-07-2017</dins> -- Date de création de la pièce
+            <shrsins>10:53</shrsins> -- Heure de création de la connexion
+            <sinsusr>LSI</sinsusr>  -- Code utilisateur de creation
+            <dmaj>21-07-2017</dmaj>  -- Date de la mise à jour
+            <shrsmaj>10:53</shrsmaj>  -- Heure de derniere mise a jour
+            <smajusr>LSI</smajusr>    -- Utilisateur de mise a jour
+            <scodchg></scodchg>       -- Code chargement
+            <iordchg>1</iordchg>   -- Ordre de chargement
+            <sfrmjurgnr>ENT</sfrmjurgnr>  -- Forme juridique du client dans l'objet
+            <icodhst>1</icodhst> -- Numero d'historisation
+            <csldimm></csldimm> -- Solde immediat (O,N)
+            <shrssht></shrssht>  -- Ancienne heure souhaitée
+            <ccodoribon>L</ccodoribon>  -- Code origine du bon
+            <scodrpp></scodrpp>         -- Numéro Réseau Professionnel Partenaire
+            <shrsprvfin></shrsprvfin>   -- Heure de fin du créneau horaire prévu
+            <scrnlivsht></scrnlivsht>   -- Créneau horaire souhaité
+            <scrnlivprv></scrnlivprv>   -- Créneau horaire prévu
+            <shrscrndeb></shrscrndeb>   -- Livraison : créneau horaire : heure de début
+            <szonecharg>02</szonecharg> ---- loading Zone  
+            <shrscrnfin></shrscrnfin>   -- Créneau horaire : heure de fin
+            <sinssgi>L8344804</sinssgi>  -- SGI utilisateur création
+            <smajsgi>L8344804</smajsgi>  -- SGI utilisateur modification
+            <scodpay>FR</scodpay>  -- Code pays
+            <cctfrge>N</cctfrge> -- Certification RGE (O/N)
+            <lged></lged> -- Le bon a il été extrait correctement pour la GED
+            <snetori></snetori> -- Code du site internet
+            <cfacnonenl>N</cfacnonenl> -- Pce de nature "Enlevée", facturée, mais pas encore enlevée dans les faits O/N
+            <scodcgi></scodcgi>  -- Code de l'art de loi du Code Général des Impôts justifiant l'exonérat. de TVA
+            <scliedi></scliedi> -- Code du Client EDI Grand Compte (table oricliedi)
+            <denl></denl>  -- Date d'enlèvement
+            <shrsenl></shrsenl> -- Heure d'enlèvement
+            <senlsgi></senlsgi> -- Code SGI de l'utilisateur qui a saisit les date et heure d'enlèvement
+           
+        </ligne_detail>
+    </bon>
+    <bonlig>
+        <ligne_detail>
+            <scodsoc>301</scodsoc>   -- Code société
+            <scodagc>3238</scodagc>  -- Code agence
+            <scodobj>B333171</scodobj> -- Code de la pièce
+            <icodlig>1</icodlig>  -- Numéro de ligne interne
+            <icdelig>0</icdelig>  -- Numero interne de la ligne de commande
+            <idevlig>0</idevlig>  -- Numero interne de la ligne de devis
+            <iordlig>1</iordlig>  -- Position de la ligne
+            <ccodnatart>M</ccodnatart> -- Nature d'article
+            <scodart>6488515</scodart> -- Code de l'article
+            <srefart>69327</srefart>   -- Reference de l'article chez le fournisseur
+            <ccodnatemp>M</ccodnatemp>  -- Nature de l'emplacement
+            <scodemp>H00640</scodemp>   -- Code emplacement
+            <srefemp></srefemp>   -- Emplacement
+            <cvtelsn>N</cvtelsn> -- Article vendu en libre service (O/N)
+            <cartlsn>N</cartlsn> -- Article de libre service négoce (O/N)
+            <cgnr>N</cgnr>  -- Generique (O,N)
+            <sdesart>TEST Article 2</sdesart> -- Désignation de l'article
+            <scodfrn>A1941</scodfrn>  -- Code fournisseur VEGA
+            <nqttphy>210</nqttphy> -- Quantite en unite physique total quantity
+            <nqttfac>46.8</nqttfac> -- Quantité commandée en UV
+            <nqttlnkfac></nqttlnkfac> -- Quantite liee en unite de facturation
+            <sfacuni>M2</sfacuni> -- Code de l'unite de facturation
+            <sphyuni>PQ</sphyuni> -- Code de l'unite physique
+            <npdsphy>10.4</npdsphy> -- Poids d'une unite physique (en kg)
+            <nvolphy>0.0</nvolphy> -- Volume d'une unité physique
+            <nvollig>0.0</nvollig>  -- Volume de la ligne
+            <npdslig>31.2</npdslig> -- Poids de la ligne
+            <ccodoriach></ccodoriach> -- Code origine du prix d'achat
+            <ccodoriprs>H</ccodoriprs> --  Origine PRS (Utilisateur, cOstume, Condition)
+            <cmtffrc></cmtffrc>    -- Motif du forcage des prix
+            <ccodnatrsv></ccodnatrsv> -- Nature de reservation (physique,logique)
+            <ltxt>0</ltxt>     -- Presence de commentaires associes a l'enreg
+            <levn>0</levn>     -- Presence d'evenement sur l'enregistrement (1,0)
+            <iligcps>0</iligcps>  -- Nombre de lignes de composants
+            <ccoddsp>I</ccoddsp>  -- Code disponibilité (I/S/V/D/H)
+            <scodarh>00000</scodarh>  -- Code sous-article
+            <ccodtyplig>S</ccodtyplig> -- Type de ligne : Standard ou Lot ou Composant de lot (item)
+            <iperlig></iperlig> -- icodlig de la ligne mere (pour une ligne fille : offerte ou item)
+            <scoditm></scoditm> -- Code item
+            <nqttphyitm>0.0</nqttphyitm>  -- Quantité (en UP) de l'item dans une UP de lot
+            <nqttfacitm>0.0</nqttfacitm>  -- Quantité d'UV d'item dans une UV de lot
+            <scodgrt></scodgrt>  -- Numero de la promo. d'offerts
+            <scodofr></scodofr>  -- Numero de l'offre de la promo. d'offerts
+            <ncoefacphy>-15.6</ncoefacphy> -- Coeff. de conversion unite 'FAC' vers unite 'PHY'
+            <irgulig></irgulig>  -- Numéro interne de la ligne de bon mère dont est issue la ligne de regul crr
+            <sdescdtmax></sdescdtmax>  -- designation conditionnement maxi
+            <sdescdtmin></sdescdtmin>  -- designation conditionnement mini
+            <sdescdtalt>  6 Rouleau</sdescdtalt>  -- designation autre conditionnement
+            <iboilig>0</iboilig>   -- Numéro interne de la ligne de bois K mère
+            <itxelig>0</itxelig>  -- Numéro de ligne de la ligne mère (pour ligne d'écotaxe)
+            <sngcfrn></sngcfrn>  -- Code fournisseur de la négociation
+            <scodngc></scodngc>  -- Code de la négociation
+            <ncos001>4.0</ncos001> -- Paramètre 1 de la formule de calcul du prix de vente départ d'origine costume
+            <ncos002>0.0</ncos002>  -- Paramètre 2 de la formule de calcul du prix de vente départ d'origine costume
+            <scodcnd>A198026</scodcnd> -- Numéro de la condition du prix condition
+            <ccodnatcnd>A</ccodnatcnd> -- Nature de la condition
+            <ncnd001>20.0</ncnd001>  -- Paramètre 1 de la formule de calcul du prix de vente départ origine condition
+            <ncnd002>4.0</ncnd002>   -- Paramètre 1 de la formule de calcul du prix de vente départ origine condition
+            <ccodsns>P</ccodsns>  -- Code sensibilité (P/S/T)
+            <ntaurmsmax>5.0</ntaurmsmax> -- Taux maximal de remise autorisé sur le prix départ de la colonne-costume
+            <sdrgusr></sdrgusr>  -- Code de l'utilisateur qui a saisi le prix de vente départ dérogeant
+            <sdrgsgi></sdrgsgi> -- SGI de l'utilisateur qui a saisi le prix de vente dérogeant
+            <sngcagc></sngcagc>  -- Code agence de création de la négociation
+            <icndlig>155</icndlig> -- Numéro de la ligne de condition à l'origine du prix de vente
+            <ccodach></ccodach>  -- Prix sur lequel s'applique la remise: B=brut, N=net, R=PRR
+            <nrmsach></nrmsach>  -- Taux de remise en pourcentage
+            <ingclig></ingclig>  -- Numéro interne de ligne de négociation
+            <litmagc>0</litmagc> -- Composant de lot d'agence (TRUE/FALSE)
+            <iorditm>0</iorditm> -- Numero d'ordre du composant de lot d'agence
+            <ccodrms></ccodrms>  -- Mode de remise sur tarif d'achat : Montant/Pourcentage
+            <nrmsmon></nrmsmon>  -- Remise sur tarif d'achat exprimée en montant
+            <cffg>N</cffg>       -- Article soumis à la gestion des fluides frigorigènes (O/N)
+            <csttadc></csttadc>  -- Article soumis à la gestion des fluides frigorigènes (O/N)
+            <ssirsttadc></ssirsttadc>  -- Siret du sous-traitant
+            <scodadc></scodadc>  -- Numéro de l'Attestation De Capacité
+            <dfinadc></dfinadc>  -- Date de fin de validité de l'Attestation De Capacité
+            <iloslig>0</iloslig>  -- Numéro interne de la ligne de LOTSGE mère de la ligne d'item courante
+            <iloalig>0</iloalig>  -- Numéro interne de la ligne de LOTAGC mère de la ligne d'élément courante
+            <igazlig>0</igazlig>  -- Numéro interne de la ligne de transport mère de la lig de surcharge gazole crr
+            <ivtelig>0</ivtelig>  -- Numéro interne de la ligne de vente mère de la ligne offerte courante
+            <nqttlsnphy>180</nqttlsnphy>  -- Quantité en libre service
+            <ielt></ielt>  -- Nombre d'éléments (si ligne LOTAGC)
+        </ligne_detail>
+        <ligne_detail>
+            <scodsoc>301</scodsoc>   -- Code société
+            <scodagc>3238</scodagc>  -- Code agence
+            <scodobj>B333171</scodobj> -- Code de la pièce
+            <icodlig>2</icodlig>  -- Numéro de ligne interne
+            <icdelig>0</icdelig>  -- Numero interne de la ligne de commande
+            <idevlig>0</idevlig>  -- Numero interne de la ligne de devis
+            <iordlig>2</iordlig>  -- Position de la ligne
+            <ccodnatart>M</ccodnatart> -- Nature d'article
+            <scodart>6488516</scodart> -- Code de l'article
+            <srefart>69327</srefart>   -- Reference de l'article chez le fournisseur
+            <ccodnatemp> </ccodnatemp>  -- Nature de l'emplacement
+            <scodemp>H00640</scodemp>   -- Code emplacement
+            <srefemp>000270</srefemp>   -- Emplacement
+            <cvtelsn>N</cvtelsn> -- Article vendu en libre service (O/N)
+            <cartlsn>N</cartlsn> -- Article de libre service négoce (O/N)
+            <cgnr>N</cgnr>  -- Generique (O,N)
+            <sdesart>TEST Article 3 </sdesart> -- Désignation de l'article
+            <scodfrn>A1941</scodfrn>  -- Code fournisseur VEGA
+            <nqttphy>210</nqttphy> -- Quantite en unite physique total quantity
+            <nqttfac>46.8</nqttfac> -- Quantité commandée en UV
+            <nqttlnkfac></nqttlnkfac> -- Quantite liee en unite de facturation
+            <sfacuni>M2</sfacuni> -- Code de l'unite de facturation
+            <sphyuni>PQ</sphyuni> -- Code de l'unite physique
+            <npdsphy>10.4</npdsphy> -- Poids d'une unite physique (en kg)
+            <nvolphy>0.0</nvolphy> -- Volume d'une unité physique
+            <nvollig>0.0</nvollig>  -- Volume de la ligne
+            <npdslig>31.2</npdslig> -- Poids de la ligne
+            <ccodoriach></ccodoriach> -- Code origine du prix d'achat
+            <ccodoriprs>H</ccodoriprs> --  Origine PRS (Utilisateur, cOstume, Condition)
+            <cmtffrc></cmtffrc>    -- Motif du forcage des prix
+            <ccodnatrsv></ccodnatrsv> -- Nature de reservation (physique,logique)
+            <ltxt>0</ltxt>     -- Presence de commentaires associes a l'enreg
+            <levn>0</levn>     -- Presence d'evenement sur l'enregistrement (1,0)
+            <iligcps>0</iligcps>  -- Nombre de lignes de composants
+            <ccoddsp>I</ccoddsp>  -- Code disponibilité (I/S/V/D/H)
+            <scodarh>00000</scodarh>  -- Code sous-article
+            <ccodtyplig>S</ccodtyplig> -- Type de ligne : Standard ou Lot ou Composant de lot (item)
+            <iperlig></iperlig> -- icodlig de la ligne mere (pour une ligne fille : offerte ou item)
+            <scoditm></scoditm> -- Code item
+            <nqttphyitm>0.0</nqttphyitm>  -- Quantité (en UP) de l'item dans une UP de lot
+            <nqttfacitm>0.0</nqttfacitm>  -- Quantité d'UV d'item dans une UV de lot
+            <scodgrt></scodgrt>  -- Numero de la promo. d'offerts
+            <scodofr></scodofr>  -- Numero de l'offre de la promo. d'offerts
+            <ncoefacphy>-15.6</ncoefacphy> -- Coeff. de conversion unite 'FAC' vers unite 'PHY'
+            <irgulig></irgulig>  -- Numéro interne de la ligne de bon mère dont est issue la ligne de regul crr
+            <sdescdtmax></sdescdtmax>  -- designation conditionnement maxi
+            <sdescdtmin></sdescdtmin>  -- designation conditionnement mini
+            <sdescdtalt>  6 Rouleau</sdescdtalt>  -- designation autre conditionnement
+            <iboilig>0</iboilig>   -- Numéro interne de la ligne de bois K mère
+            <itxelig>0</itxelig>  -- Numéro de ligne de la ligne mère (pour ligne d'écotaxe)
+            <sngcfrn></sngcfrn>  -- Code fournisseur de la négociation
+            <scodngc></scodngc>  -- Code de la négociation
+            <ncos001>4.0</ncos001> -- Paramètre 1 de la formule de calcul du prix de vente départ d'origine costume
+            <ncos002>0.0</ncos002>  -- Paramètre 2 de la formule de calcul du prix de vente départ d'origine costume
+            <scodcnd>A198026</scodcnd> -- Numéro de la condition du prix condition
+            <ccodnatcnd>A</ccodnatcnd> -- Nature de la condition
+            <ncnd001>20.0</ncnd001>  -- Paramètre 1 de la formule de calcul du prix de vente départ origine condition
+            <ncnd002>4.0</ncnd002>   -- Paramètre 1 de la formule de calcul du prix de vente départ origine condition
+            <ccodsns>P</ccodsns>  -- Code sensibilité (P/S/T)
+            <ntaurmsmax>5.0</ntaurmsmax> -- Taux maximal de remise autorisé sur le prix départ de la colonne-costume
+            <sdrgusr></sdrgusr>  -- Code de l'utilisateur qui a saisi le prix de vente départ dérogeant
+            <sdrgsgi></sdrgsgi> -- SGI de l'utilisateur qui a saisi le prix de vente dérogeant
+            <sngcagc></sngcagc>  -- Code agence de création de la négociation
+            <icndlig>155</icndlig> -- Numéro de la ligne de condition à l'origine du prix de vente
+            <ccodach></ccodach>  -- Prix sur lequel s'applique la remise: B=brut, N=net, R=PRR
+            <nrmsach></nrmsach>  -- Taux de remise en pourcentage
+            <ingclig></ingclig>  -- Numéro interne de ligne de négociation
+            <litmagc>0</litmagc> -- Composant de lot d'agence (TRUE/FALSE)
+            <iorditm>0</iorditm> -- Numero d'ordre du composant de lot d'agence
+            <ccodrms></ccodrms>  -- Mode de remise sur tarif d'achat : Montant/Pourcentage
+            <nrmsmon></nrmsmon>  -- Remise sur tarif d'achat exprimée en montant
+            <cffg>N</cffg>       -- Article soumis à la gestion des fluides frigorigènes (O/N)
+            <csttadc></csttadc>  -- Article soumis à la gestion des fluides frigorigènes (O/N)
+            <ssirsttadc></ssirsttadc>  -- Siret du sous-traitant
+            <scodadc></scodadc>  -- Numéro de l'Attestation De Capacité
+            <dfinadc></dfinadc>  -- Date de fin de validité de l'Attestation De Capacité
+            <iloslig>0</iloslig>  -- Numéro interne de la ligne de LOTSGE mère de la ligne d'item courante
+            <iloalig>0</iloalig>  -- Numéro interne de la ligne de LOTAGC mère de la ligne d'élément courante
+            <igazlig>0</igazlig>  -- Numéro interne de la ligne de transport mère de la lig de surcharge gazole crr
+            <ivtelig>0</ivtelig>  -- Numéro interne de la ligne de vente mère de la ligne offerte courante
+            <nqttlsnphy>200</nqttlsnphy>  -- Quantité en libre service
+            <ielt></ielt>  -- Nombre d'éléments (si ligne LOTAGC)
+        </ligne_detail>
+        <ligne_detail>
+            <scodsoc>301</scodsoc>   -- Code société
+            <scodagc>3238</scodagc>  -- Code agence
+            <scodobj>B333171</scodobj> -- Code de la pièce
+            <icodlig>3</icodlig>  -- Numéro de ligne interne
+            <icdelig>0</icdelig>  -- Numero interne de la ligne de commande
+            <idevlig>0</idevlig>  -- Numero interne de la ligne de devis
+            <iordlig>3</iordlig>  -- Position de la ligne
+            <ccodnatart>M</ccodnatart> -- Nature d'article
+            <scodart>6488517</scodart> -- Code de l'article
+            <srefart>69327</srefart>   -- Reference de l'article chez le fournisseur
+            <ccodnatemp>C</ccodnatemp>  -- Nature de l'emplacement
+            <scodemp>H00640</scodemp>   -- Code emplacement
+            <srefemp>000270</srefemp>   -- Emplacement
+            <cvtelsn>N</cvtelsn> -- Article vendu en libre service (O/N)
+            <cartlsn>N</cartlsn> -- Article de libre service négoce (O/N)
+            <cgnr>N</cgnr>  -- Generique (O,N)
+            <sdesart>TEST Article 1</sdesart> -- Désignation de l'article
+            <scodfrn>A1941</scodfrn>  -- Code fournisseur VEGA
+            <nqttphy>210</nqttphy> -- Quantite en unite physique total quantity
+            <nqttfac>46.8</nqttfac> -- Quantité commandée en UV
+            <nqttlnkfac></nqttlnkfac> -- Quantite liee en unite de facturation
+            <sfacuni>M2</sfacuni> -- Code de l'unite de facturation
+            <sphyuni>PQ</sphyuni> -- Code de l'unite physique
+            <npdsphy>10.4</npdsphy> -- Poids d'une unite physique (en kg)
+            <nvolphy>0.0</nvolphy> -- Volume d'une unité physique
+            <nvollig>0.0</nvollig>  -- Volume de la ligne
+            <npdslig>31.2</npdslig> -- Poids de la ligne
+            <ccodoriach></ccodoriach> -- Code origine du prix d'achat
+            <ccodoriprs>H</ccodoriprs> --  Origine PRS (Utilisateur, cOstume, Condition)
+            <cmtffrc></cmtffrc>    -- Motif du forcage des prix
+            <ccodnatrsv></ccodnatrsv> -- Nature de reservation (physique,logique)
+            <ltxt>0</ltxt>     -- Presence de commentaires associes a l'enreg
+            <levn>0</levn>     -- Presence d'evenement sur l'enregistrement (1,0)
+            <iligcps>0</iligcps>  -- Nombre de lignes de composants
+            <ccoddsp>I</ccoddsp>  -- Code disponibilité (I/S/V/D/H)
+            <scodarh>00000</scodarh>  -- Code sous-article
+            <ccodtyplig>S</ccodtyplig> -- Type de ligne : Standard ou Lot ou Composant de lot (item)
+            <iperlig></iperlig> -- icodlig de la ligne mere (pour une ligne fille : offerte ou item)
+            <scoditm></scoditm> -- Code item
+            <nqttphyitm>0.0</nqttphyitm>  -- Quantité (en UP) de l'item dans une UP de lot
+            <nqttfacitm>0.0</nqttfacitm>  -- Quantité d'UV d'item dans une UV de lot
+            <scodgrt></scodgrt>  -- Numero de la promo. d'offerts
+            <scodofr></scodofr>  -- Numero de l'offre de la promo. d'offerts
+            <ncoefacphy>-15.6</ncoefacphy> -- Coeff. de conversion unite 'FAC' vers unite 'PHY'
+            <irgulig></irgulig>  -- Numéro interne de la ligne de bon mère dont est issue la ligne de regul crr
+            <sdescdtmax></sdescdtmax>  -- designation conditionnement maxi
+            <sdescdtmin></sdescdtmin>  -- designation conditionnement mini
+            <sdescdtalt>  6 Rouleau</sdescdtalt>  -- designation autre conditionnement
+            <iboilig>0</iboilig>   -- Numéro interne de la ligne de bois K mère
+            <itxelig>0</itxelig>  -- Numéro de ligne de la ligne mère (pour ligne d'écotaxe)
+            <sngcfrn></sngcfrn>  -- Code fournisseur de la négociation
+            <scodngc></scodngc>  -- Code de la négociation
+            <ncos001>4.0</ncos001> -- Paramètre 1 de la formule de calcul du prix de vente départ d'origine costume
+            <ncos002>0.0</ncos002>  -- Paramètre 2 de la formule de calcul du prix de vente départ d'origine costume
+            <scodcnd>A198026</scodcnd> -- Numéro de la condition du prix condition
+            <ccodnatcnd>A</ccodnatcnd> -- Nature de la condition
+            <ncnd001>20.0</ncnd001>  -- Paramètre 1 de la formule de calcul du prix de vente départ origine condition
+            <ncnd002>4.0</ncnd002>   -- Paramètre 1 de la formule de calcul du prix de vente départ origine condition
+            <ccodsns>P</ccodsns>  -- Code sensibilité (P/S/T)
+            <ntaurmsmax>5.0</ntaurmsmax> -- Taux maximal de remise autorisé sur le prix départ de la colonne-costume
+            <sdrgusr></sdrgusr>  -- Code de l'utilisateur qui a saisi le prix de vente départ dérogeant
+            <sdrgsgi></sdrgsgi> -- SGI de l'utilisateur qui a saisi le prix de vente dérogeant
+            <sngcagc></sngcagc>  -- Code agence de création de la négociation
+            <icndlig>155</icndlig> -- Numéro de la ligne de condition à l'origine du prix de vente
+            <ccodach></ccodach>  -- Prix sur lequel s'applique la remise: B=brut, N=net, R=PRR
+            <nrmsach></nrmsach>  -- Taux de remise en pourcentage
+            <ingclig></ingclig>  -- Numéro interne de ligne de négociation
+            <litmagc>0</litmagc> -- Composant de lot d'agence (TRUE/FALSE)
+            <iorditm>0</iorditm> -- Numero d'ordre du composant de lot d'agence
+            <ccodrms></ccodrms>  -- Mode de remise sur tarif d'achat : Montant/Pourcentage
+            <nrmsmon></nrmsmon>  -- Remise sur tarif d'achat exprimée en montant
+            <cffg>N</cffg>       -- Article soumis à la gestion des fluides frigorigènes (O/N)
+            <csttadc></csttadc>  -- Article soumis à la gestion des fluides frigorigènes (O/N)
+            <ssirsttadc></ssirsttadc>  -- Siret du sous-traitant
+            <scodadc></scodadc>  -- Numéro de l'Attestation De Capacité
+            <dfinadc></dfinadc>  -- Date de fin de validité de l'Attestation De Capacité
+            <iloslig>0</iloslig>  -- Numéro interne de la ligne de LOTSGE mère de la ligne d'item courante
+            <iloalig>0</iloalig>  -- Numéro interne de la ligne de LOTAGC mère de la ligne d'élément courante
+            <igazlig>0</igazlig>  -- Numéro interne de la ligne de transport mère de la lig de surcharge gazole crr
+            <ivtelig>0</ivtelig>  -- Numéro interne de la ligne de vente mère de la ligne offerte courante
+            <nqttlsnphy>200</nqttlsnphy>  -- Quantité en libre service
+            <ielt></ielt>  -- Nombre d'éléments (si ligne LOTAGC)
+        </ligne_detail>
+    
+       
+        
+    </bonlig>
+</document>

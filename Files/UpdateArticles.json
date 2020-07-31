@@ -1,0 +1,25 @@
+[
+  
+  {
+	"articleCode": 6488516,
+	"flagDone": 1,
+	"leftQuantity": 3,
+    	"rowNumber": 2
+    
+ },
+ 
+   {
+    "articleCode":6488517,
+    "leftQuantity": 3,
+    "rowNumber": 3,
+     "flagDone": 1
+  },
+  
+  {
+    "rowNumber":1,
+    "articleCode": 6488515,
+    "flagDone": 0,
+    "leftQuantity": 12
+    }
+  
+]
